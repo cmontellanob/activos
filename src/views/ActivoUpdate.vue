@@ -48,9 +48,10 @@ export default {
     },
     methods: {
         getOne() {
+            
             this.axios({
                 method: "get",
-                url: this.api + "/areas/" + this.$route.params.id,
+                url: this.api + "/activos/" + this.$route.params.id,
             })
                 .then((response) => {
                     this.payload = response.data;
@@ -63,7 +64,7 @@ export default {
             if (confirm("Esta seguro de editar?.")) {
                 this.axios({
                     method: "patch",
-                    url: this.api + "/areas/" + this.$route.params.id,
+                    url: this.api + "/activos/" + this.$route.params.id,
                     data: this.payload,
                 })
                     .then((response) => {
@@ -99,8 +100,9 @@ export default {
     },
     components: {},
     mounted() {
-        this.getOne();
         this.getAreaList() 
+        this.getOne();
+      
     },
 };
 </script>

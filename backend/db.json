@@ -22,7 +22,12 @@
       "nombre": "Recursos  Humanos",
       "encargado": "Directo",
       "nroFuncionarios": 5,
-      "id": 4
+      "id": 4,
+      "tipoActivo": "computadora",
+      "marca": "hp",
+      "modelo": "Pavion 600",
+      "estado": "nuevo",
+      "areaId": 3
     }
   ],
   "activos": [
@@ -32,7 +37,7 @@
       "marca": "hp",
       "modelo": "Pavion 600",
       "estado": "nuevo",
-      "areaId": 2
+      "areaId": 3
     },
     {
       "id": 5,
