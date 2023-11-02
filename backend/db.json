@@ -1,0 +1,70 @@
+{
+  "areas": [
+    {
+      "nombre": "Finanzas",
+      "encargado": "Jose Linares",
+      "nroFuncionarios": 3,
+      "id": 1
+    },
+    {
+      "nombre": "Legal",
+      "encargado": "Maria Perez Ustarez",
+      "nroFuncionarios": 2,
+      "id": 2
+    },
+    {
+      "nombre": "Informática",
+      "encargado": "Juan Perez",
+      "nroFuncionarios": 3,
+      "id": 3
+    },
+    {
+      "nombre": "Recursos  Humanos",
+      "encargado": "Directo",
+      "nroFuncionarios": 5,
+      "id": 4
+    }
+  ],
+  "activos": [
+    {
+      "id": 4,
+      "tipoActivo": "computadora",
+      "marca": "hp",
+      "modelo": "Pavion 600",
+      "estado": "nuevo",
+      "areaId": 2
+    },
+    {
+      "id": 5,
+      "tipoActivo": "impresora",
+      "marca": "hp",
+      "modelo": "lase 51",
+      "estado": "usado",
+      "areaId": 2
+    },
+    {
+      "id": 6,
+      "tipoActivo": "monitor",
+      "marca": "hp",
+      "modelo": "H23",
+      "estado": "uso",
+      "areaId": 2
+    },
+    {
+      "id": 7,
+      "tipoActivo": "impresora",
+      "marca": "hp",
+      "modelo": "lase 51",
+      "estado": "usado",
+      "areaId": 3
+    },
+    {
+      "id": 8,
+      "tipoActivo": "monitor",
+      "marca": "hp",
+      "modelo": "H23",
+      "estado": "uso",
+      "areaId": 3
+    }
+  ]
+}
